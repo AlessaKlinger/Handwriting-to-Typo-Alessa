@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <div id="canvas" touch-action="none"></div>
+<meta charset="UTF-8">
+<div id="canvas" touch-action="none"></div>
 <script src="pep.dist.js"></script>
 <script src="jquery.js"></script>
 <script>
-$("#canvas").on("pointermove", function(event) {
+("canvas").on("pointermove", function(event) {
   draw(event);
 });
 </script>
@@ -30,7 +31,10 @@ $("#canvas").on("pointermove", function(event) {
             box-sizing: border-box;
         }
 
-        body {
+        body
+
+        <div id="editor"></div>
+        {
             margin: 0;
         }
 
